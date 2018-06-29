@@ -1,0 +1,57 @@
+html{ position:relative;min-height:100%;}
+body
+{    margin:0 auto;
+	padding:0;
+	background-color:#ddd;
+	color : white ;
+	font-family: 'Gudea', sans-serif;
+
+	padding-bottom:50px;
+}
+#header
+{ height : 100px; width :100%; background-color:black ; background-image:url('.../images/tech2.jpg'); background-size:cover;	  }
+.logo img{ display:inline;
+ }
+#nav
+{  height :auto; width :100%; background-color:black ;
+	
+}
+#nav li{ background-color:black;
+		display:inline-block; font-weight:bolder; text-align:center; border:1pt solid black;
+		
+		}
+#nav a	{padding:10px 25px;   }
+#nav a:hover{ padding:10px 25px; background-color:white; color: black; text-decoration:none; box-shadow:0px 4px 4px 0px rgba(233,100,233,0.4);}	
+		
+		
+.avatar1{vertical-align:middle; width:50px; height:50px; border-radius:50%; margin:5px;}
+.jumbotron { background-image:url('../images/tech4-001.jpg');
+			background-size:cover; height:600px;
+			background-attachment:fixed ;
+			margin:0px;padding:0px;
+			}
+.main{  background-color:#ddd; 
+		padding:10px;
+		color:black;
+ 
+ }
+ 
+.section{ background-color:	;  } 
+
+/*  css for members.php  */
+.lfloat{ float:left; }
+.rfloat{ float:right; margin-top:20px; width:20%;}
+.clearfix { clear:both;  }
+
+.box{  background-color:white; margin-top:30px ;margin-left:50px; color:white;
+       display : inline-block; width:200px; border-radius:10px;
+	   
+}
+
+.box>.username { background-color:black; padding:5px 10px; width:200px; border-bottom-left-radius:10px;}
+.box>.stats { color : #222 ; text-align:center;}
+
+.footer { clear:both ;background-color:black ; padding:20px; position:fixed; bottom:0; width:100%; height:50px;}
+.footer>a {  margin:10px;}
+
+/*

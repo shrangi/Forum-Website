@@ -1,0 +1,6 @@
+$q = 'Select topics.topic_id, topics.topic_subject , topics.topic_date , 
+				      users.id, users.fullname
+				      from topics left join users 
+					  on  topics.topic_by = users.id 
+					  where topics.topic_subj = users.id ;
+				         ' ;
